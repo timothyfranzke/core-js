@@ -7,7 +7,4 @@ Step 2:
 `npm install && bower install`
 
 Step 3:  
-`gulp clean`
-
-Step 4:  
 `gulp`
