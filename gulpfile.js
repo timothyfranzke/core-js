@@ -126,5 +126,5 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('default', ['build'], function(){
-    plugins.watch(['src/client/app/**/*.js', 'src/client/app/**/*.html', 'src/client/app/**/*.css'],['build'])
+    plugins.watch(['src/client/app/**/*.js', 'src/client/app/**/*.html', 'src/client/app/**/*.css', 'src/client/app/*.js'],['build'])
 });
